@@ -8,7 +8,7 @@ from datetime import datetime
 #  НАСТРОЙКИ — измени эти значения
 # ──────────────────────────────────────────────
 BOT_TOKEN = ""BOT_TOKEN""
-ANON_CHANNEL_ID = 1507401618683858964
+ANON_CHANNEL_ID = int(os.getenv("ANON_CHANNEL_ID"))
 # ──────────────────────────────────────────────
 
 intents = discord.Intents.default()
