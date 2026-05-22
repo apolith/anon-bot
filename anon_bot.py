@@ -7,7 +7,7 @@ from datetime import datetime
 # ──────────────────────────────────────────────
 #  НАСТРОЙКИ — измени эти значения
 # ──────────────────────────────────────────────
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 ANON_CHANNEL_ID = int(os.getenv("ANON_CHANNEL_ID"))
 # ──────────────────────────────────────────────
 
